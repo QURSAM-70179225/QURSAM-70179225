@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Qursam Bibi — Resume</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; color: #1e293b; font-size: 9.2pt; line-height: 1.42; }
+  .page { width: 210mm; height: 296.5mm; overflow: hidden; display: grid; grid-template-columns: 64mm 1fr; }
+  aside { background: #0d121c; color: #cbd5e1; padding: 11mm 7mm 8mm 9mm; }
+  main { padding: 13mm 11mm 10mm 10mm; }
+  h1 { font-size: 22pt; line-height: 1.05; color: #f8fafc; font-weight: 800; letter-spacing: -0.02em; }
+  .title { color: #22d3ee; font-weight: 600; font-size: 10pt; margin: 2.5mm 0 4.5mm; }
+  aside h3 { color: #22d3ee; font-size: 8pt; text-transform: uppercase; letter-spacing: 0.12em; margin: 4.6mm 0 2mm; font-weight: 700; }
+  .contact div { margin-bottom: 1.2mm; font-size: 8.3pt; word-break: break-all; }
+  .contact b { color: #f8fafc; font-weight: 600; display: block; font-size: 7.2pt; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; }
+  .contact a { color: #e2e8f0; text-decoration: none; }
+  .skillgrp { margin-bottom: 2mm; }
+  .skillgrp strong { color: #f8fafc; font-size: 8.3pt; display: block; margin-bottom: 0.8mm; }
+  .tags { display: flex; flex-wrap: wrap; gap: 1mm; }
+  .tags span { background: rgba(34, 211, 238, 0.12); color: #a5f3fc; font-size: 7.4pt; padding: 0.5mm 1.8mm; border-radius: 1mm; }
+  .edu strong { color: #f8fafc; display: block; }
+  .edu .cg { display: inline-block; margin-top: 1.5mm; background: #22d3ee; color: #0d121c; font-weight: 800; padding: 0.6mm 2.4mm; border-radius: 1mm; font-size: 8.5pt; }
+  .small { font-size: 8.1pt; }
+  aside ul { list-style: none; }
+  aside li { margin-bottom: 1.1mm; font-size: 8pt; }
+
+  main h2 { font-size: 9pt; text-transform: uppercase; letter-spacing: 0.14em; color: #0891b2; font-weight: 800; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 1.2mm; margin: 5mm 0 2.6mm; }
+  main h2:first-child { margin-top: 0; }
+  .summary { color: #334155; }
+  .item { margin-bottom: 2.7mm; }
+  .item-head { display: flex; justify-content: space-between; align-items: baseline; gap: 3mm; }
+  .item-head strong { font-size: 9.6pt; color: #0f172a; }
+  .item-head em { font-style: normal; color: #64748b; font-size: 7.9pt; white-space: nowrap; }
+  .sub { color: #0891b2; font-weight: 600; font-size: 8.2pt; }
+  .item p { color: #334155; margin-top: 0.5mm; }
+  .stack { color: #64748b; font-size: 7.8pt; margin-top: 0.4mm; }
+  .exp { display: grid; grid-template-columns: 1fr auto; row-gap: 1.3mm; }
+  .exp div:nth-child(odd) strong { color: #0f172a; }
+  .exp em { font-style: normal; color: #64748b; font-size: 7.9pt; }
+  .honors li { margin-bottom: 1.5mm; color: #334155; list-style: none; padding-left: 3.5mm; position: relative; }
+  .honors li::before { content: ''; position: absolute; left: 0; top: 1.7mm; width: 1.6mm; height: 1.6mm; background: #22d3ee; border-radius: 50%; }
+  .honors strong { color: #0f172a; }
+</style>
+</head>
+<body>
+<div class="page">
+  <aside>
+    <h1>Qursam<br>Bibi</h1>
+    <div class="title">AI Developer &amp;<br>Full-Stack Engineer</div>
+
+    <div class="contact">
+      <div><b>Email</b><a href="mailto:qursam21@gmail.com">qursam21@gmail.com</a></div>
+      <div><b>Phone</b>+92 342 0718726</div>
+      <div><b>GitHub</b><a href="https://github.com/QURSAM-70179225">github.com/QURSAM-70179225</a></div>
+      <div><b>LinkedIn</b><a href="https://www.linkedin.com/in/qursam-bibi-b3309b320/">linkedin.com/in/qursam-bibi-b3309b320</a></div>
+      <div><b>Location</b>Lahore, Pakistan</div>
+    </div>
+
+    <h3>Education</h3>
+    <div class="edu small">
+      <strong>BS Information Engineering Technology</strong>
+      The University of Lahore<br>2024 – Present
+      <div><span class="cg">CGPA 3.89</span></div>
+    </div>
+
+    <h3>Technical Skills</h3>
+    <div class="skillgrp"><strong>Languages</strong><div class="tags"><span>Python 3.12+</span><span>Dart</span><span>JavaScript</span><span>TypeScript</span><span>SQL</span><span>C++</span></div></div>
+    <div class="skillgrp"><strong>Frontend &amp; Mobile</strong><div class="tags"><span>React</span><span>Flutter</span><span>Streamlit</span><span>Tailwind CSS</span><span>Vite</span><span>HTML5/CSS3</span></div></div>
+    <div class="skillgrp"><strong>Backend &amp; APIs</strong><div class="tags"><span>FastAPI</span><span>Pydantic</span><span>Node.js</span><span>WebSockets</span><span>REST</span><span>MySQL</span><span>MongoDB</span></div></div>
+    <div class="skillgrp"><strong>AI &amp; ML</strong><div class="tags"><span>Gemini API</span><span>Gemma 4</span><span>OpenAI API</span><span>Ollama</span><span>Groq</span><span>Prompt Engineering</span></div></div>
+    <div class="skillgrp"><strong>Tools</strong><div class="tags"><span>Git/GitHub</span><span>VS Code</span><span>PowerShell</span><span>VMware (Linux)</span></div></div>
+
+    <h3>Certifications</h3>
+    <ul>
+      <li>Python &amp; Full-Stack Web Development certifications</li>
+      <li>CS &amp; algorithms coursework — University of London, University of Leeds (Coursera)</li>
+      <li>HTML, CSS &amp; JS for Web Developers — Johns Hopkins</li>
+    </ul>
+  </aside>
+
+  <main>
+    <h2>Profile</h2>
+    <p class="summary">Information Engineering Technology student and developer specializing in AI-driven microservices, full-stack web and mobile development, and LLM integrations. Builds real-world applications with FastAPI, React, Flutter and both hosted and local generative AI models, with a proven track record in nationwide hackathons, open-source work and campus leadership.</p>
+
+    <h2>Featured Projects</h2>
+    <div class="item">
+      <div class="item-head"><strong>SafePath AI — Disaster Response Platform</strong><em>Alibaba Cloud AI Hackathon · 2026</em></div>
+      <p>Solo-built intelligent evacuation and disaster-mitigation platform with real-time data streaming and AI model endpoints; presented at the hackathon's regional evaluation.</p>
+      <div class="stack">React · FastAPI · WebSockets · AI APIs</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><strong>DreamVerse AI — Life-Simulation Web App</strong><em>Live · dreamverseai.netlify.app</em></div>
+      <p>Immersive web app with a 3D world, an AI mentor (Nova), goal roadmaps and XP; deployed with Netlify, Render and MongoDB Atlas.</p>
+      <div class="stack">React · Vite · Tailwind · Three.js · Node.js · MongoDB · Groq</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><strong>Study Buddy — AI Learning Assistant</strong><em>Hacktoberfest Hack Day Lahore · 2026</em></div>
+      <p>Flutter mobile app using Google Gemma 4 via the Gemini API for automated note synthesis and dynamic quiz generation. Awarded the DEV Attendee Badge.</p>
+      <div class="stack">Flutter · Dart · Gemma 4 · Gemini API</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><strong>SkillForge — Open-Weight Agent Harness</strong><em>Open source · 2026</em></div>
+      <p>Co-developed a tool that generates structured SKILL.md files using local Gemma open-weight models.</p>
+      <div class="stack">Python · Gemma · Ollama · pytest</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><strong>Smart Utility Bill Analytics Engine</strong><em>Women Tech Quest · 2026</em></div>
+      <p>Automated document extraction and multi-turn query system for unstructured utility invoices.</p>
+      <div class="stack">Streamlit · Gemini 3.5 Flash-Lite · Pandas</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><strong>Customer Sentiment &amp; Insight Microservice</strong><em>Skkillo AI Challenge · 2026</em></div>
+      <p>Asynchronous sentiment-analysis and intent-classification backend.</p>
+      <div class="stack">FastAPI · Pydantic · OpenAI API</div>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="exp">
+      <div><strong>Generative AI Intern</strong> · TechNova</div><em>Jul 2026 – Present</em>
+      <div><strong>Python Programming Intern</strong> · Decodelabs (Remote)</div><em>Jun – Jul 2026</em>
+      <div><strong>Volunteer Field Assistant</strong> · World Health Organization</div><em>May 2026</em>
+      <div><strong>IT Summer Intern</strong> · BugsLink TECH</div><em>Jul – Dec 2025</em>
+    </div>
+
+    <h2>Fellowships, Honors &amp; Leadership</h2>
+    <ul class="honors">
+      <li><strong>Honhaar Scholarship (2026)</strong> — merit-based award for top academic performance.</li>
+      <li><strong>Alkhidmat Fellowship &amp; Internship (2026)</strong> — 6-week program in prompt engineering, software product design and tech entrepreneurship.</li>
+      <li><strong>TEDx The University of Lahore — Operations Team (2026)</strong> — event logistics, attendee management and venue execution.</li>
+      <li><strong>Aspire Leaders Program Scholar (2026)</strong> — global leadership and critical-thinking cohort.</li>
+      <li><strong>Competitions</strong> — 1st Place, Omecta Quiz Competition · 6th Place, International Essay Competition.</li>
+    </ul>
+  </main>
+</div>
+</body>
+</html>
