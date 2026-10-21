@@ -5,6 +5,8 @@
 > **CV:** `resume.pdf` is the downloadable CV. Its editable source is `cv/resume.html` — open it in Chrome, edit, then Print → Save as PDF (A4, margins none, background graphics on) and replace `resume.pdf`.
 >
 > **Interactive features** (`showcase.js`, `interactive.js`): animated hero with orbiting tech and a scrambling name, highlights ticker, featured-work cards, a working terminal in the hero (try `help`, `projects`, `open safepath`, `hire`), a cursor-reactive neural-network background, clickable skills that filter projects, an XP & achievements game, and a few hidden easter eggs 🥚.
+>
+> **Mobile & tablet:** fully touch-friendly on Android, iPhone and iPad (`mobile.js` + the MOBILE section of `style.css`): swipeable featured cards, bottom-sheet case studies (swipe down to close), keyboard-aware terminal, full-screen menu, tilt-to-move hero on phones, haptic taps on Android, notch-safe layout. It can also be installed to the home screen like an app (`manifest.webmanifest`, `icons/`).
 
 
 ### AI Developer & Full-Stack Engineer | BS Information Engineering Technology (CGPA 3.89) | The University of Lahore

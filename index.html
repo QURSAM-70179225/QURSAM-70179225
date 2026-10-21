@@ -2,7 +2,17 @@
 <html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0d121c" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f6f8fb" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Qursam">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <title>Qursam Bibi | AI Developer & Full-Stack Engineer</title>
     <meta name="description" content="Qursam Bibi — AI Developer & Full-Stack Engineer, BS Information Engineering Technology (CGPA 3.89) at The University of Lahore. FastAPI, React, Flutter and LLM projects, hackathons and fellowships.">
     <meta property="og:title" content="Qursam Bibi | AI & Full-Stack Engineer">
@@ -56,7 +66,7 @@
         <div class="header-actions">
             <a href="#contact" class="hire-btn">Hire me <span>👋</span></a>
             <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark theme"><i class="fas fa-sun"></i></button>
-            <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+            <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false"><i class="fas fa-bars"></i></button>
         </div>
     </header>
 
@@ -125,7 +135,7 @@
                 <div id="termOut" aria-live="polite"></div>
                 <form class="term-input-line" id="termForm" autocomplete="off">
                     <span class="prompt">➜ <b>~</b></span>
-                    <input id="termInput" type="text" spellcheck="false" autocapitalize="off" aria-label="Type a terminal command">
+                    <input id="termInput" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" enterkeyhint="send" aria-label="Type a terminal command">
                 </form>
             </div>
             <div class="term-chips" id="termChips">
@@ -261,8 +271,8 @@
                     <option>Scholarship / fellowship</option>
                     <option>Something else</option>
                 </select>
-                <input type="text" name="name" placeholder="Your name" required>
-                <input type="email" name="email" placeholder="Your email" required>
+                <input type="text" name="name" placeholder="Your name" autocomplete="name" enterkeyhint="next" required>
+                <input type="email" name="email" placeholder="Your email" autocomplete="email" inputmode="email" autocapitalize="off" enterkeyhint="next" required>
                 <textarea name="message" placeholder="Tell me a little about it..." rows="5" required></textarea>
                 <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
                 <p class="form-status" id="formStatus" role="status"></p>
@@ -295,5 +305,6 @@
     <script src="script.js"></script>
     <script src="showcase.js"></script>
     <script src="interactive.js"></script>
+    <script src="mobile.js"></script>
 </body>
 </html>

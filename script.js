@@ -104,6 +104,7 @@
         root.setAttribute('data-theme', next);
         try { localStorage.setItem('theme', next); } catch (e) {}
         setThemeIcon();
+        document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.setAttribute('content', next === 'light' ? '#f6f8fb' : '#0d121c'));
     });
 
     /* ---------- Mobile nav ---------- */

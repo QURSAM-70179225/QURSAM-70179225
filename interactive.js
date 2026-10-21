@@ -70,6 +70,7 @@
         done.add(id);
         store.set('qb-quests', [...done]);
         renderXP();
+        try { navigator.vibrate && navigator.vibrate([12, 40, 18]); } catch (e) {}
         if (xpEl.pill) { xpEl.pill.classList.remove('bump'); void xpEl.pill.offsetWidth; xpEl.pill.classList.add('bump'); }
         // Section visits fill the bar quietly; only the very first one gets a toast
         const visits = [...done].filter(d => d.startsWith('visit-')).length;
@@ -373,7 +374,7 @@
             canvas.width = W * dpr; canvas.height = H * dpr;
             canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
             ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-            const count = Math.min(90, Math.floor((W * H) / 16000));
+            const count = Math.min(W < 700 ? 45 : 90, Math.floor((W * H) / (W < 700 ? 14000 : 16000)));
             nodes = Array.from({ length: count }, () => ({ x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - 0.5) * 0.4, vy: (Math.random() - 0.5) * 0.4, r: Math.random() * 1.8 + 0.8 }));
         }
         function frame() {
@@ -405,6 +406,11 @@
         }
         hero.addEventListener('mousemove', (e) => { const r = hero.getBoundingClientRect(); mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top; });
         hero.addEventListener('mouseleave', () => { mouse.x = mouse.y = -999; });
+        // Fingers work too: drag across the hero and the network follows
+        const touchAt = (e) => { const r = hero.getBoundingClientRect(); const t = e.touches[0]; if (t) { mouse.x = t.clientX - r.left; mouse.y = t.clientY - r.top; } };
+        hero.addEventListener('touchstart', touchAt, { passive: true });
+        hero.addEventListener('touchmove', touchAt, { passive: true });
+        hero.addEventListener('touchend', () => { setTimeout(() => { mouse.x = mouse.y = -999; }, 600); }, { passive: true });
         hero.addEventListener('click', (e) => {
             if (e.target.closest('a, button, input, #terminal')) return;
             const r = hero.getBoundingClientRect();
