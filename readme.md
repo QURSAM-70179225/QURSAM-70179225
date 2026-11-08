@@ -1,19 +1,19 @@
-<!-- ============ HEADER ============ -->
+<!-- ============ HEADER (custom animated SVG in /assets) ============ -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffb547,50:ff6f61,100:c3b1ff&height=230&section=header&text=Qursam%20Bibi&fontSize=72&fontColor=1a1206&animation=fadeIn&fontAlignY=36&desc=AI%20Developer%20%E2%9C%A6%20Full-Stack%20Engineer%20%E2%9C%A6%20Hackathon%20Builder&descSize=18&descAlignY=58" alt="Qursam Bibi banner">
+  <img width="100%" src="assets/header.svg" alt="Qursam Bibi: AI Developer, Full-Stack Engineer, 6x Hackathon Builder">
 </p>
 
 <p align="center">
   <a href="https://github.com/QURSAM-70179225">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=FFB547&center=true&vCenter=true&multiline=false&width=640&height=45&lines=Hi+there%2C+I'm+Qursam+%F0%9F%91%8B;I+turn+ideas+into+AI-powered+products+%F0%9F%A4%96;FastAPI+%E2%9C%A6+React+%E2%9C%A6+Flutter+%E2%9C%A6+LLMs;4+hackathons+in+2026+%F0%9F%8F%86;Open+to+work+%E2%80%94+let's+build+something!+%E2%9C%A8" alt="Typing intro">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=FFB547&center=true&vCenter=true&width=680&height=45&lines=I+turn+ideas+into+AI-powered+products+%F0%9F%A4%96;6+hackathons+%E2%9C%A6+1+built+completely+solo+%F0%9F%9B%B0%EF%B8%8F;FastAPI+%E2%9C%A6+React+%E2%9C%A6+Flutter+%E2%9C%A6+LLMs;Open+to+work+%E2%80%94+let's+build+something!+%E2%9C%A8" alt="Typing intro">
   </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Open%20to%20work-ffb547?style=for-the-badge&labelColor=1a1206" alt="Open to work">
-  <img src="https://img.shields.io/badge/CGPA-3.89-ff6f61?style=for-the-badge&labelColor=1a1206" alt="CGPA 3.89">
-  <img src="https://img.shields.io/badge/Lahore-Pakistan-c3b1ff?style=for-the-badge&labelColor=1a1206" alt="Lahore, Pakistan">
-  <img src="https://komarev.com/ghpvc/?username=QURSAM-70179225&style=for-the-badge&color=ffb547&label=Profile+views" alt="Profile views">
+  <img src="https://img.shields.io/badge/Hackathons-6-ff6f61?style=for-the-badge&labelColor=1a1206" alt="6 hackathons">
+  <img src="https://img.shields.io/badge/CGPA-3.89-c3b1ff?style=for-the-badge&labelColor=1a1206" alt="CGPA 3.89">
+    <img src="https://komarev.com/ghpvc/?username=QURSAM-70179225&style=for-the-badge&color=ffb547&label=Profile+views" alt="Profile views">
 </p>
 
 <p align="center">
@@ -40,6 +40,8 @@ education:  BS Information Engineering Technology @ UOL
 focus:      [LLM apps, FastAPI microservices, React, Flutter]
 shipped:    DreamVerse AI  # live on Netlify
 status:     open_to_work   # internships · junior roles · freelance
+hackathons: 6           # Alibaba×Alkhidmat, UOL Hacktoberfest, 10Pearls,
+            #             COLABS, NASTP×MLH, Riphah Computing Cup
 fun_fact:   built a whole disaster-response platform solo at a hackathon
 ```
 
@@ -47,7 +49,7 @@ fun_fact:   built a whole disaster-response platform solo at a hackathon
 <td width="40%" valign="top">
 
 🚀 &nbsp;**Shipped** DreamVerse AI, a 3D world with an AI mentor<br><br>
-🏆 &nbsp;**4 hackathons** and AI challenges in 2026<br><br>
+🏆 &nbsp;**6 hackathons**, from Alibaba Cloud to NASTP × MLH<br><br>
 🏅 &nbsp;**Honhaar Scholar**, **Alkhidmat Fellow**, **Aspire Leaders Scholar**<br><br>
 🎤 &nbsp;Ran operations for **TEDx UOL** (500+ attendees)<br><br>
 💼 &nbsp;**Open to work**: available now
@@ -105,76 +107,42 @@ fun_fact:   built a whole disaster-response platform solo at a hackathon
 
 ---
 
+## 🏆 The hackathon trail
+
+<p align="center">
+  <img width="100%" src="assets/hackathon-trail.svg" alt="6 hackathons: Alibaba Cloud AI Hackathon with Alkhidmat Foundation, Hacktoberfest Hack Day at The University of Lahore, Women Tech Quest at 10Pearls, COLABS Hackathon, NASTP × MLH Hackathon, Riphah Computing Cup AI Hackathon">
+</p>
+
+| # | Hackathon | Organised by | What I built |
+|:-:|---|---|---|
+| 🛰️ | **Alibaba Cloud AI Hackathon** | Alibaba Cloud × Alkhidmat Foundation | **SafePath AI**, built solo |
+| 🎃 | **Hacktoberfest Hack Day** | The University of Lahore | **Study Buddy** |
+| 👩‍💻 | **Women Tech Quest** | 10Pearls Lahore | **Smart Bill Analytics** |
+| 🤝 | **COLABS Hackathon** | COLABS | Participant |
+| 🚀 | **NASTP × MLH Hackathon** | NASTP · Major League Hacking | Participant |
+| 🏆 | **Computing Cup AI Hackathon** | Riphah International University | Participant |
+
+---
+
 ## 🌟 Featured projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+  <a href="https://dreamverseai.netlify.app"><img width="49%" src="assets/p-dreamverse.svg" alt="DreamVerse AI"></a>
+  <img width="49%" src="assets/p-safepath.svg" alt="SafePath AI">
+</p>
+<p align="center">
+  <img width="49%" src="assets/p-studybuddy.svg" alt="Study Buddy">
+  <img width="49%" src="assets/p-smartbill.svg" alt="Smart Bill Analytics">
+</p>
+<p align="center">
+  <img width="49%" src="assets/p-sentiment.svg" alt="AI Sentiment Engine">
+  <img width="49%" src="assets/p-skillforge.svg" alt="SkillForge">
+</p>
 
-### 🌌 [DreamVerse AI](https://dreamverseai.netlify.app)
-A 3D life-simulation web app with an AI mentor called **Nova**, goal roadmaps, XP and JWT auth.
-
-`React` `Three.js` `Tailwind` `Node.js` `MongoDB` `Groq`
-
-[🔗 Live demo](https://dreamverseai.netlify.app) · [📂 Code](https://github.com/QURSAM-70179225/Dream-Verse)
-
-</td>
-<td width="50%" valign="top">
-
-### 🛰️ SafePath AI
-Built **solo** at the Alibaba Cloud AI Hackathon Pakistan. It streams live hazard data and reroutes people to safety in real time.
-
-`React` `FastAPI` `WebSockets` `AI APIs`
-
-🏆 *Alibaba Cloud AI Hackathon · Oct 2026*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📚 Study Buddy
-A Flutter app that turns your notes into study guides and quizzes with **Gemma 4**. It earned the DEV Attendee Badge.
-
-`Flutter` `Dart` `Gemini API`
-
-🎃 *Hacktoberfest Hack Day Lahore · Oct 2026*
-
-</td>
-<td width="50%" valign="top">
-
-### 🧾 Smart Bill Analytics
-An OCR pipeline that extracts utility bill data and answers questions about it in plain language.
-
-`Python` `Streamlit` `Gemini` `Pandas`
-
-👩‍💻 *Women Tech Quest · 10Pearls Lahore*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 💬 AI Sentiment Engine
-An async microservice for sentiment scoring and intent classification.
-
-`FastAPI` `Pydantic` `OpenAI`
-
-🤖 *Skkillo AI Challenge · Aug 2026*
-
-</td>
-<td width="50%" valign="top">
-
-### 🛠️ SkillForge
-An open-source agent harness that generates and validates SKILL.md files with local Gemma models.
-
-`Python` `Ollama` `Gemma` `pytest`
-
-🌱 *Open source*
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://dreamverseai.netlify.app"><img src="https://img.shields.io/badge/🌌%20Try%20DreamVerse%20AI-live-a78bfa?style=for-the-badge&labelColor=1a1206" alt="Try DreamVerse"></a>
+  <a href="https://github.com/QURSAM-70179225/Dream-Verse"><img src="https://img.shields.io/badge/📂%20DreamVerse-source-ffb547?style=for-the-badge&labelColor=1a1206" alt="DreamVerse source"></a>
+</p>
 
 <details>
 <summary><b>✨ More projects</b></summary>
@@ -244,5 +212,5 @@ Python (University of Michigan) · HTML, CSS & JS (Johns Hopkins) · SQL (Course
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c3b1ff,50:ff6f61,100:ffb547&height=120&section=footer" alt="footer">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c3b1ff,50:ff6f61,100:ffb547&height=120&section=footer&reversal=true" alt="footer">
 </p>

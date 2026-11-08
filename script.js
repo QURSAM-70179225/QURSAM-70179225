@@ -18,7 +18,7 @@
     /* ---------- Render: stats ---------- */
     const projects = D.projects || [];
     const stats = [
-        { num: projects.filter(p => (p.category || []).includes('hack')).length, label: 'Hackathons & AI Challenges' },
+        { num: (D.hackathons || []).length || projects.filter(p => (p.category || []).includes('hack')).length, label: 'Hackathons' },
         { num: projects.length, label: 'Projects Built' },
         { num: (D.experience || []).length, label: 'Internships & Roles' },
         { num: (D.certifications || []).length, label: 'Certifications' },

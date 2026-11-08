@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffb547"/><stop offset=".5" stop-color="#ff6f61"/><stop offset="1" stop-color="#c3b1ff"/></linearGradient>
+<clipPath id="clip"><rect width="1200" height="600" rx="28"/></clipPath><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/></filter>
+<style>
+.pop{opacity:0;animation:pop .6s cubic-bezier(.3,1.6,.5,1) forwards} @keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+.ring{opacity:0;animation:ring 2.6s ease-out infinite} @keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.9)}}
+.draw{stroke-dasharray:2600;stroke-dashoffset:2600;animation:draw 3.2s ease-in-out .2s forwards} @keyframes draw{to{stroke-dashoffset:0}}
+.walk{stroke-dasharray:4 14;animation:walk 3s linear infinite} @keyframes walk{to{stroke-dashoffset:-180}}
+</style></defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="600" fill="#0f0c15"/><rect width="1200" height="600" filter="url(#grain)"/>
+<text x="60" y="70" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" letter-spacing="4" fill="#ffb547">§ THE HACKATHON TRAIL</text>
+<text x="60" y="112" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="38" fill="url(#g)">6 hackathons. Real problems. Shipped under pressure.</text>
+<path d="M180 200 L600 200 L1020 200 C1150 200 1150 440 1020 440 L600 440 L180 440" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round" class="draw" transform="translate(0 0)"/>
+<path d="M180 200 L600 200 L1020 200 C1150 200 1150 440 1020 440 L600 440 L180 440" fill="none" stroke="#f7efe3" stroke-opacity=".35" stroke-width="2" class="walk"/>
+<circle r="7" fill="#ffb547"><animateMotion dur="7s" repeatCount="indefinite" path="M180 200 L600 200 L1020 200 C1150 200 1150 440 1020 440 L600 440 L180 440"/></circle>
+<g class="pop" style="animation-delay:0.40s;transform-origin:180px 200px">
+<circle cx="180" cy="200" r="34" fill="#0f0c15" stroke="#ff6f61" stroke-width="3"/>
+<circle cx="180" cy="200" r="34" fill="none" stroke="#ff6f61" stroke-width="2" class="ring" style="animation-delay:1.00s;transform-origin:180px 200px"/>
+<text x="180" y="211" text-anchor="middle" font-size="30">🛰️</text>
+<text x="180" y="148" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#ff6f61">01</text>
+<text x="180" y="268" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="23" fill="#f7efe3">Alibaba Cloud AI Hackathon</text>
+<text x="180" y="292" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14.5" fill="#ab9fb3">with Alkhidmat Foundation</text>
+<text x="180" y="314" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#ff6f61">SafePath AI · built solo</text>
+</g><g class="pop" style="animation-delay:0.85s;transform-origin:600px 200px">
+<circle cx="600" cy="200" r="34" fill="#0f0c15" stroke="#c3b1ff" stroke-width="3"/>
+<circle cx="600" cy="200" r="34" fill="none" stroke="#c3b1ff" stroke-width="2" class="ring" style="animation-delay:1.45s;transform-origin:600px 200px"/>
+<text x="600" y="211" text-anchor="middle" font-size="30">🎃</text>
+<text x="600" y="148" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#c3b1ff">02</text>
+<text x="600" y="268" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="23" fill="#f7efe3">Hacktoberfest Hack Day</text>
+<text x="600" y="292" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14.5" fill="#ab9fb3">The University of Lahore</text>
+<text x="600" y="314" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#c3b1ff">Study Buddy · Flutter + Gemma</text>
+</g><g class="pop" style="animation-delay:1.30s;transform-origin:1020px 200px">
+<circle cx="1020" cy="200" r="34" fill="#0f0c15" stroke="#ffb547" stroke-width="3"/>
+<circle cx="1020" cy="200" r="34" fill="none" stroke="#ffb547" stroke-width="2" class="ring" style="animation-delay:1.90s;transform-origin:1020px 200px"/>
+<text x="1020" y="211" text-anchor="middle" font-size="30">👩‍💻</text>
+<text x="1020" y="148" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#ffb547">03</text>
+<text x="1020" y="268" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="23" fill="#f7efe3">Women Tech Quest</text>
+<text x="1020" y="292" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14.5" fill="#ab9fb3">10Pearls Lahore</text>
+<text x="1020" y="314" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#ffb547">Smart Bill Analytics</text>
+</g><g class="pop" style="animation-delay:1.75s;transform-origin:1020px 440px">
+<circle cx="1020" cy="440" r="34" fill="#0f0c15" stroke="#ff6f61" stroke-width="3"/>
+<circle cx="1020" cy="440" r="34" fill="none" stroke="#ff6f61" stroke-width="2" class="ring" style="animation-delay:2.35s;transform-origin:1020px 440px"/>
+<text x="1020" y="451" text-anchor="middle" font-size="30">🤝</text>
+<text x="1020" y="388" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#ff6f61">04</text>
+<text x="1020" y="508" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="23" fill="#f7efe3">COLABS Hackathon</text>
+<text x="1020" y="532" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14.5" fill="#ab9fb3">COLABS</text>
+<text x="1020" y="554" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#ff6f61">Hackathon participant</text>
+</g><g class="pop" style="animation-delay:2.20s;transform-origin:600px 440px">
+<circle cx="600" cy="440" r="34" fill="#0f0c15" stroke="#c3b1ff" stroke-width="3"/>
+<circle cx="600" cy="440" r="34" fill="none" stroke="#c3b1ff" stroke-width="2" class="ring" style="animation-delay:2.80s;transform-origin:600px 440px"/>
+<text x="600" y="451" text-anchor="middle" font-size="30">🚀</text>
+<text x="600" y="388" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#c3b1ff">05</text>
+<text x="600" y="508" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="23" fill="#f7efe3">NASTP × MLH Hackathon</text>
+<text x="600" y="532" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14.5" fill="#ab9fb3">NASTP · Major League Hacking</text>
+<text x="600" y="554" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#c3b1ff">Hackathon participant</text>
+</g><g class="pop" style="animation-delay:2.65s;transform-origin:180px 440px">
+<circle cx="180" cy="440" r="34" fill="#0f0c15" stroke="#ffb547" stroke-width="3"/>
+<circle cx="180" cy="440" r="34" fill="none" stroke="#ffb547" stroke-width="2" class="ring" style="animation-delay:3.25s;transform-origin:180px 440px"/>
+<text x="180" y="451" text-anchor="middle" font-size="30">🏆</text>
+<text x="180" y="388" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#ffb547">06</text>
+<text x="180" y="508" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="23" fill="#f7efe3">Computing Cup AI Hackathon</text>
+<text x="180" y="532" text-anchor="middle" font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="14.5" fill="#ab9fb3">Riphah International University</text>
+<text x="180" y="554" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#ffb547">AI challenge participant</text>
+</g>
+</g></svg>

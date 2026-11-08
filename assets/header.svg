@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffb547"/><stop offset=".5" stop-color="#ff6f61"/><stop offset="1" stop-color="#c3b1ff"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="b1"><stop offset="0" stop-color="#ff6f61" stop-opacity=".55"/><stop offset="1" stop-color="#ff6f61" stop-opacity="0"/></radialGradient>
+<radialGradient id="b2"><stop offset="0" stop-color="#c3b1ff" stop-opacity=".45"/><stop offset="1" stop-color="#c3b1ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="b3"><stop offset="0" stop-color="#ffb547" stop-opacity=".35"/><stop offset="1" stop-color="#ffb547" stop-opacity="0"/></radialGradient>
+<path id="ring" d="M1010,180 m-92,0 a92,92 0 1,1 184,0 a92,92 0 1,1 -184,0"/>
+<clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/></filter>
+<style>
+.tw{animation:tw 3s ease-in-out infinite} @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.up{opacity:0;animation:up .9s cubic-bezier(.2,.8,.2,1) forwards} @keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.spin{transform-origin:1010px 180px;animation:spin 18s linear infinite} @keyframes spin{to{transform:rotate(360deg)}}
+.pulse{transform-origin:1010px 180px;animation:pulse 2.4s ease-in-out infinite} @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.dash{stroke-dasharray:6 10;animation:dash 6s linear infinite} @keyframes dash{to{stroke-dashoffset:-160}}
+.cur{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+</style>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="360" fill="#0f0c15"/>
+<circle cx="980" cy="60" r="260" fill="url(#b1)"><animate attributeName="cx" values="980;900;980" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="120" cy="340" r="240" fill="url(#b2)"><animate attributeName="cy" values="340;280;340" dur="10s" repeatCount="indefinite"/></circle>
+<circle cx="560" cy="200" r="200" fill="url(#b3)"><animate attributeName="r" values="200;240;200" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="80" cy="60" r="1.6" fill="#f7efe3" class="tw" style="animation-delay:0s"/><circle cx="240" cy="300" r="1.2" fill="#f7efe3" class="tw" style="animation-delay:0.8s"/><circle cx="420" cy="40" r="1.4" fill="#f7efe3" class="tw" style="animation-delay:1.6s"/><circle cx="700" cy="320" r="1.2" fill="#f7efe3" class="tw" style="animation-delay:0.4s"/><circle cx="860" cy="50" r="1.8" fill="#f7efe3" class="tw" style="animation-delay:2.2s"/><circle cx="1010" cy="300" r="1.3" fill="#f7efe3" class="tw" style="animation-delay:1.2s"/><circle cx="1150" cy="90" r="1.5" fill="#f7efe3" class="tw" style="animation-delay:0.6s"/><circle cx="560" cy="90" r="1.1" fill="#f7efe3" class="tw" style="animation-delay:2.6s"/><circle cx="330" cy="170" r="1" fill="#f7efe3" class="tw" style="animation-delay:1.9s"/><circle cx="980" cy="180" r="1" fill="#f7efe3" class="tw" style="animation-delay:0.2s"/>
+<rect width="1200" height="360" filter="url(#grain)"/>
+<g font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#ffb547" letter-spacing="4"><text x="70" y="88" class="up">HI THERE, I'M</text></g>
+<text x="64" y="190" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="104" letter-spacing="-3" fill="url(#g)" class="up" style="animation-delay:.25s">Qursam Bibi</text>
+<path d="M72 218 Q 110 204 148 214 T 224 214 T 300 210 T 372 212" fill="none" stroke="#ff6f61" stroke-width="4" stroke-linecap="round" stroke-dasharray="320" stroke-dashoffset="320"><animate attributeName="stroke-dashoffset" from="320" to="0" dur="1.2s" begin=".9s" fill="freeze"/></path>
+<g font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="20" fill="#f7efe3" class="up" style="animation-delay:.6s">
+<text x="70" y="268"><tspan fill="#ff6f61">&gt;</tspan> AI Developer <tspan fill="#ab9fb3">·</tspan> Full-Stack Engineer <tspan fill="#ab9fb3">·</tspan> 6x Hackathon Builder<tspan class="cur" fill="#ffb547">_</tspan></text></g>
+<g font-family="'Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="15" fill="#ab9fb3" class="up" style="animation-delay:.9s"><text x="70" y="306">BS Information Engineering Technology · The University of Lahore · CGPA 3.89</text></g>
+<circle cx="1010" cy="180" r="118" fill="none" stroke="#ffb547" stroke-opacity=".5" stroke-width="1.5" class="dash"/>
+<g class="pulse"><circle cx="1010" cy="180" r="70" fill="#ffb547"/><circle cx="1010" cy="180" r="70" fill="none" stroke="#ff6f61" stroke-width="3" transform="translate(5 5)"/></g>
+<text x="1010" y="196" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="46" fill="#0f0c15">QB</text>
+<g class="spin"><text font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="15" font-weight="700" letter-spacing="5.4" fill="#f7efe3"><textPath href="#ring">OPEN TO WORK ✦ AI BUILDER ✦ FULL-STACK ✦ </textPath></text></g>
+</g>
+</svg>

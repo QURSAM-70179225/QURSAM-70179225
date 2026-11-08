@@ -13,12 +13,25 @@ const PORTFOLIO = {
   github: "https://github.com/QURSAM-70179225",
   linkedin: "https://www.linkedin.com/in/qursam-bibi-b3309b320/",
 
+  // Every hackathon you've taken part in (used for the hackathon count)
+  hackathons: [
+    { name: "Alibaba Cloud AI Hackathon", org: "Alibaba Cloud × Alkhidmat Foundation", project: "SafePath AI" },
+    { name: "Hacktoberfest Hack Day", org: "The University of Lahore", project: "Study Buddy" },
+    { name: "Women Tech Quest", org: "10Pearls Lahore", project: "Smart Bill Analytics" },
+    { name: "COLABS Hackathon", org: "COLABS" },
+    { name: "NASTP × MLH Hackathon", org: "NASTP · Major League Hacking" },
+    { name: "Computing Cup AI Hackathon", org: "Riphah International University" }
+  ],
+
   // Scrolling highlights strip under the hero
   ticker: [
     "🎓 3.89 CGPA",
     "🏅 Honhaar Merit Scholar",
-    "☁️ Alibaba Cloud AI Hackathon",
-    "🎃 Hacktoberfest Hack Day Lahore",
+    "☁️ Alibaba Cloud × Alkhidmat AI Hackathon",
+    "🤝 COLABS Hackathon",
+    "🚀 NASTP × MLH Hackathon",
+    "🏆 Riphah Computing Cup AI Hackathon",
+    "🎃 Hacktoberfest Hack Day · UOL",
     "👩‍💻 Women Tech Quest 2026",
     "🤖 Skkillo AI Challenge",
     "🌍 Aspire Leaders Scholar",
@@ -70,7 +83,7 @@ const PORTFOLIO = {
       id: "safepath",
       title: "SafePath AI",
       category: ["hack", "ai", "web"],
-      event: "Alibaba Cloud AI Hackathon Pakistan · Oct 2026",
+      event: "Alibaba Cloud AI Hackathon × Alkhidmat · Oct 2026",
       status: "Hackathon",
       featured: true,
       art: "🛰️",
@@ -91,7 +104,7 @@ const PORTFOLIO = {
       id: "studybuddy",
       title: "Study Buddy",
       category: ["hack", "ai"],
-      event: "Hacktoberfest Hack Day Lahore · Oct 2026",
+      event: "Hacktoberfest Hack Day · University of Lahore · Oct 2026",
       status: "Hackathon",
       featured: true,
       art: "📚",

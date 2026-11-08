@@ -38,7 +38,7 @@
     }
 
     /* ---------- Hero stats ---------- */
-    const hackCount = projects.filter(p => (p.category || []).includes('hack')).length;
+    const hackCount = (D.hackathons || []).length || projects.filter(p => (p.category || []).includes('hack')).length;
     const heroStats = $('#heroStats');
     if (heroStats) {
         const items = [
