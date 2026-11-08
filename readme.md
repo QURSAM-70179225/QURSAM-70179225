@@ -1,83 +1,158 @@
-# Hi there, I'm Qursam Bibi 👋 
+<h1 align="center">Hi there, I'm Qursam Bibi 👋</h1>
 
+<p align="center">
+  <b>AI Developer & Full-Stack Engineer</b><br>
+  BS Information Engineering Technology · CGPA 3.89 · The University of Lahore · Lahore, Pakistan
+</p>
 
-### AI Developer & Full-Stack Engineer | BS Information Engineering Technology (CGPA 3.89) | The University of Lahore
-
-🌐 **Live app:** [DreamVerse AI](https://dreamverseai.netlify.app)
-
-An ambitious and tech-driven Information Engineering Technology student at The University of Lahore. I bridge the gap between software execution, data architecture, and hardware orchestration. Currently specializing in Generative AI implementations, core software engineering principles, and scalable system applications.
-
-📩 **Email:** qursam21@gmail.com | 70179225@student.uol.edu.pk  
-📱 **Phone:** +92 3420718726  
-🌐 **LinkedIn:** [linkedin.com/in/qursam-bibi-b3309b320](https://www.linkedin.com/in/qursam-bibi-b3309b320/)  
-🐙 **GitHub:** [github.com/QURSAM-70179225](https://github.com/QURSAM-70179225)
-
----
-
-## 🛠️ Tech Stack & Skills
-
-*   **Programming Languages:** Python, C++, Dart, SQL, JavaScript
-*   **AI & Data Science:** Generative AI (LLMs), LLM Orchestration, Gemini / Gemma / OpenAI APIs, OCR Pipelines, NLP (Hugging Face), Pandas, Streamlit
-*   **Full-Stack & Mobile:** FastAPI, Pydantic, React, Flutter, WebSockets, REST APIs, Async Python Microservices
-*   **Web Development:** HTML5, CSS3, JavaScript, UI/UX Design Patterns, WordPress
-*   **Hardware & Architecture:** Embedded Systems, Microcontroller Interfacing, Sensor Integration
-*   **Core Fundamentals:** Object-Oriented Programming (OOP), Software Modularity, Cross-Browser Optimization
-*   **Tools & Productivity:** Git, Microsoft Excel, Microsoft Word, Google Ads
+<p align="center">
+  <a href="https://dreamverseai.netlify.app"><img src="https://img.shields.io/badge/Live%20App-DreamVerse%20AI-8b5cf6?style=for-the-badge&logo=netlify&logoColor=white" alt="DreamVerse AI"></a>
+  <a href="https://www.linkedin.com/in/qursam-bibi-b3309b320/"><img src="https://img.shields.io/badge/LinkedIn-Qursam%20Bibi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:qursam21@gmail.com"><img src="https://img.shields.io/badge/Email-qursam21%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-06b6d4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"></a>
+</p>
 
 ---
 
-## 🏆 Hackathons & Technical Competitions
+### 🙋‍♀️ About me
 
-*   **SafePath AI** — Lead Architect & Developer | *Alibaba Cloud AI Hackathon Pakistan · Oct 2026*
-    *   Engineered an end-to-end disaster response system using React, FastAPI, WebSockets, and AI model APIs; delivered a live regional pitch demonstrating real-time data streaming and adaptive route optimization.
-*   **Study Buddy** — Full-Stack Developer | *Hacktoberfest Hack Day Lahore · Oct 2026*
-    *   Built a cross-platform Flutter mobile app powered by Google Gemma 4 (via Gemini API) for automated study guide synthesis and dynamic quiz generation; awarded the DEV Attendee Badge.
-*   **Smart Bill Analytics Pipeline** | *Women Tech Quest (10Pearls Lahore) · Oct 2026*
-    *   Developed an automated OCR and multi-turn Q&A pipeline using Streamlit, Gemini 3.5 Flash-Lite API, and Pandas to extract and structure unstructured utility invoice data.
-*   **AI Sentiment & Customer Insight Engine** | *Skkillo AI Developer Challenge · Aug 2026*
-    *   Designed a microservice with Python, FastAPI, and Pydantic, using OpenAI APIs for asynchronous sentiment scoring and intent classification.
+I'm an Information Engineering Technology student who builds AI-powered products end to end, from the LLM layer and FastAPI backends to React and Flutter frontends, and down to microcontrollers and sensors.
 
----
-
-## 🎖️ Fellowships, Merit Awards & Leadership
-
-*   **Honhaar Scholarship Recipient** — Higher Education Commission / Provincial Govt. *(Sept 2026)*: full merit-based scholarship for top academic performance in Information Engineering Technology.
-*   **Alkhidmat AI & Software Engineering Fellow** — Alkhidmat Foundation *(Sept 2026)*: 6-week fellowship on LLM prompt orchestration, full-stack microservice deployment, and technical product execution.
-*   **Operations & Systems Logistics Lead** — TEDx University of Lahore *(Sept 2026)*: architected operational workflows, venue technical setup, and audience tracking for 500+ attendees.
-*   **Aspire Leaders Scholar** — Aspire Institute, Harvard-founded *(2026)*: globally competitive cohort covering leadership, critical reasoning, and product management.
-*   🥇 **1st Place** — Omecta Quiz Competition | **6th Place** — International Essay Competition
-
-### 📜 Technical Certifications & Training
-*   **Full-Stack & Python Specializations:** REST API architecture, database design, and asynchronous Python development.
-*   **Advanced Computer Science Coursework:** algorithms and software engineering via University of London and University of Leeds (Coursera).
+- 🔭 Currently a **Generative AI Intern @ TechNova**
+- 🚀 Recently shipped **[DreamVerse AI](https://dreamverseai.netlify.app)**, a 3D world where an AI mentor helps you plan your future
+- 🏆 Built at 4 hackathons and AI challenges in 2026
+- 🏅 **Honhaar Merit Scholar**, **Alkhidmat Fellow** and **Aspire Leaders Scholar**
+- 💼 Open to internships, freelance work and collaborations in AI and full-stack development
 
 ---
 
-## 🚀 Featured Projects
+### 🛠️ Tech stack
 
-### 🤖 Generative AI & NLP (TechNova)
-*   **Prompt Engineering Showcase** | [GitHub Repo](https://github.com/QURSAM-70179225/prompt-engineering-showcase)
-    *   *Description:* Designed and documented advanced zero-shot, few-shot, and chain-of-thought prompt configurations across 10 tailored use cases utilizing open LLM APIs.
-*   **AI Story & Content Generator** | [GitHub Repo](https://github.com/QURSAM-70179225/TechNova-ai-story-generator)
-    *   *Description:* Created a responsive web-driven creative engine that processes LLM inference outputs into rich, dynamic stories, blogs, and poems using flexible user-defined structural constraints.
-*   **AI Text Summarizer** | [GitHub Repo](https://github.com/QURSAM-70179225/Novatech_ai-text-summarizer)
-    *   *Description:* Developed a natural language processing web interface built on pre-trained Hugging Face language pipelines, yielding high-accuracy real-time text compression evaluation metrics.
+**Languages**
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
+</p>
 
-### 💻 Software & Web Applications
-*   **Mood Canva Web Application** 
-    *   *Description:* Engineered a fully responsive front-end system from scratch, standardizing web properties for cross-browser stability and rapid desktop/mobile render cycles.
-*   **School Management System** (University of Lahore)
-    *   *Description:* Structured a multi-tier back-end application map deploying strict OOP guidelines to secure data access objects, automate multi-user access rules, and control grading schedules.
+**AI & Data**
+<p>
+  <img src="https://img.shields.io/badge/Gemini%20%2F%20Gemma-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+</p>
 
-### 🤖 Hardware-Software Integration
-*   **Automated Zone Evacuation System** (University of Lahore)
-    *   *Description:* Configured functional system architecture for a 3D embedded spatial robot to solve pathway navigation maps dynamically. Programmed microcontrollers to interpret asynchronous distance sensor streams, rendering instant obstacle evasion overrides.
+**Full-stack & mobile**
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white">
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white">
+</p>
+
+**Tools & hardware**
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white">
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black">
+  <img src="https://img.shields.io/badge/Embedded%20Systems-555555?style=flat-square&logo=arduino&logoColor=white">
+</p>
 
 ---
 
-## 📈 Experience
+### 🌟 Featured work
 
-*   **Generative AI Intern** @ TechNova *(Jul 2026 - Present)*
-*   **Python Programming Intern** @ Decodelabs *(Jun 2026 - Jul 2026)*
-*   **Information Technology Summer Intern** @ BugsLink TECH *(Jul 2025 - Dec 2025)*
-*   **Public Health Campaign Volunteer** @ World Health Organization *(May 2026)*
+| Project | What it is | Stack |
+|---|---|---|
+| 🌌 **[DreamVerse AI](https://dreamverseai.netlify.app)** · [repo](https://github.com/QURSAM-70179225/Dream-Verse) | A 3D life-simulation web app with an AI mentor called Nova, goal roadmaps, XP and JWT auth. **Live now.** | React, Three.js, Tailwind, Node.js, MongoDB, Groq |
+| 🛰️ **SafePath AI** | Built solo for the Alibaba Cloud AI Hackathon Pakistan. A disaster-response platform that streams live hazard data and reroutes people to safety in real time. | React, FastAPI, WebSockets, AI APIs |
+| 📚 **Study Buddy** | Built at Hacktoberfest Hack Day Lahore. A Flutter app that turns notes into study guides and quizzes with Gemma 4. Earned the DEV Attendee Badge. | Flutter, Dart, Gemini API |
+| 🧾 **Smart Bill Analytics** | Built at Women Tech Quest (10Pearls). An OCR pipeline that extracts utility bill data and answers questions about it. | Python, Streamlit, Gemini, Pandas |
+| 💬 **AI Sentiment Engine** | Built for the Skkillo AI Challenge. An async microservice for sentiment scoring and intent classification. | FastAPI, Pydantic, OpenAI |
+| 🛠️ **SkillForge** | An open-source agent harness that generates and validates SKILL.md files with local Gemma models. | Python, Ollama, Gemma, pytest |
+
+<details>
+<summary><b>More projects</b></summary>
+
+**Generative AI (TechNova internship)**
+- **[Prompt Engineering Showcase](https://github.com/QURSAM-70179225/prompt-engineering-showcase)**: zero-shot, few-shot and chain-of-thought prompts across 10 use cases
+- **[AI Story & Content Generator](https://github.com/QURSAM-70179225/TechNova-ai-story-generator)**: turns LLM output into stories, blogs and poems from user-defined constraints
+- **[AI Text Summarizer](https://github.com/QURSAM-70179225/Novatech_ai-text-summarizer)**: real-time summarization built on Hugging Face pipelines
+
+**University of Lahore**
+- **Automated Zone Evacuation System**: an embedded robot that reads distance sensors to navigate and avoid obstacles in real time
+- **School Management System**: a C++ OOP back end for multi-user access and grading schedules
+- **Encryption & Decryption Tool**: a C++ tool for classic encryption algorithms
+
+**Personal**
+- **Mood Canva**: a responsive front-end web app in vanilla JavaScript
+</details>
+
+---
+
+### 📈 Experience
+
+| Role | Organization | Dates |
+|---|---|---|
+| Generative AI Intern | TechNova | Jul 2026 – Present |
+| Python Programming Intern | Decodelabs | Jun 2026 – Jul 2026 |
+| Volunteer Field Assistant | World Health Organization (WHO) | May 2026 |
+| IT Summer Intern | BugsLink TECH | Jul 2025 – Dec 2025 |
+
+---
+
+### 🎖️ Awards, fellowships & leadership
+
+- 🏅 **Honhaar Scholarship Recipient** *(Sept 2026)*: a full merit scholarship for academic performance
+- 💚 **Alkhidmat AI & Software Engineering Fellow** *(Sept 2026)*: a 6-week fellowship on LLM orchestration and full-stack deployment
+- 🎤 **TEDx University of Lahore, Operations Lead** *(Sept 2026)*: ran operations and technical setup for 500+ attendees
+- 🌍 **Aspire Leaders Scholar** *(2026)*: Aspire Institute, founded at Harvard
+- 🥇 **1st Place**, Omecta Quiz Competition · **6th Place**, International Essay Competition
+
+<details>
+<summary><b>📜 Certifications</b></summary>
+
+- Programming for Everybody (Python), University of Michigan
+- HTML, CSS & JavaScript for Web Developers, Johns Hopkins University
+- Understanding Basic SQL Syntax, Coursera Project Network
+- Effective Problem-Solving, UC Irvine
+- Organizational Leadership, IIM Ahmedabad
+- Developing Interpersonal Skills, IBM
+- Foundations of Digital Marketing, Google
+- Training and Learning Online, University of Leeds
+- Finding Your Professional Voice, Royal Holloway, University of London
+- Aspire Leaders Program, Aspire Institute
+</details>
+
+---
+
+### 📊 GitHub stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=QURSAM-70179225&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QURSAM-70179225&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
+</p>
+
+---
+
+### 📫 Let's connect
+
+📩 qursam21@gmail.com · 70179225@student.uol.edu.pk  
+📱 +92 342 0718726  
+🔗 [LinkedIn](https://www.linkedin.com/in/qursam-bibi-b3309b320/) · [GitHub](https://github.com/QURSAM-70179225)
+
+<p align="center"><i>Always building, always learning. ✨</i></p>
