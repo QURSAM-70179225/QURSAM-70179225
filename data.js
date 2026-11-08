@@ -25,7 +25,8 @@ const PORTFOLIO = {
     "💚 Alkhidmat Fellow",
     "🎤 TEDx UOL Operations",
     "🥇 1st Place · Omecta Quiz",
-    "🚀 DreamVerse AI is live"
+    "🚀 DreamVerse AI is live",
+    "✦ Open to work"
   ],
 
   // Tech that orbits your photo in the hero
@@ -284,9 +285,9 @@ const PORTFOLIO = {
   ],
 
   experience: [
-    { date: "Jul 2026 – Present", title: "Generative AI Intern", org: "TechNova", type: "Full-time", icon: "fa-brain",
+    { date: "Jul 2026 · Completed", title: "Generative AI Intern", org: "TechNova", type: "Internship", icon: "fa-brain",
       points: ["Built LLM-powered tools: story generator, summarizer and prompt library"] },
-    { date: "Jun 2026 – Jul 2026", title: "Python Programming Intern", org: "Decodelabs", type: "Remote", icon: "fa-code",
+    { date: "Jun 2026 – Jul 2026", title: "Python Programming Intern", org: "Decodelabs", type: "Remote internship", icon: "fa-code",
       points: ["Python automation and problem-solving projects"] },
     { date: "May 2026", title: "Volunteer Field Assistant", org: "World Health Organization (WHO)", type: "Volunteer", icon: "fa-hand-holding-medical",
       points: ["Supported a public health awareness campaign"] },

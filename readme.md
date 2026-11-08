@@ -18,11 +18,10 @@
 
 I'm an Information Engineering Technology student who builds AI-powered products end to end, from the LLM layer and FastAPI backends to React and Flutter frontends, and down to microcontrollers and sensors.
 
-- 🔭 Currently a **Generative AI Intern @ TechNova**
+- ✦ **Open to work**: available now for internships, junior AI / full-stack roles and freelance projects
 - 🚀 Recently shipped **[DreamVerse AI](https://dreamverseai.netlify.app)**, a 3D world where an AI mentor helps you plan your future
 - 🏆 Built at 4 hackathons and AI challenges in 2026
 - 🏅 **Honhaar Merit Scholar**, **Alkhidmat Fellow** and **Aspire Leaders Scholar**
-- 💼 Open to internships, freelance work and collaborations in AI and full-stack development
 
 ---
 
@@ -108,7 +107,7 @@ I'm an Information Engineering Technology student who builds AI-powered products
 
 | Role | Organization | Dates |
 |---|---|---|
-| Generative AI Intern | TechNova | Jul 2026 – Present |
+| Generative AI Intern | TechNova | Jul 2026 (completed) |
 | Python Programming Intern | Decodelabs | Jun 2026 – Jul 2026 |
 | Volunteer Field Assistant | World Health Organization (WHO) | May 2026 |
 | IT Summer Intern | BugsLink TECH | Jul 2025 – Dec 2025 |

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#0d121c" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#f6f8fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0f0c15" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f6f0e5" media="(prefers-color-scheme: light)">
     <meta name="color-scheme" content="dark light">
     <meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">
@@ -18,11 +18,12 @@
     <meta property="og:title" content="Qursam Bibi | AI & Full-Stack Engineer">
     <meta property="og:description" content="Generative AI, full-stack and embedded systems projects, hackathon wins and fellowships.">
     <meta property="og:image" content="image_0.png">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2306b6d4'/><text x='50' y='68' font-size='50' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%230d121c'>QB</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ffb547'/><text x='50' y='68' font-size='50' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%230f0c15'>QB</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600;1,9..144,700;1,9..144,800&family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@400;600&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signature.css">
     <script>
         // Apply saved theme before paint to avoid a flash
         try { const t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
@@ -79,8 +80,8 @@
         <div class="blob blob-2" aria-hidden="true"></div>
 
         <div class="hero-content">
-            <span class="availability reveal-top"><span class="pulse-dot"></span> Available for internships, hackathons &amp; freelance</span>
-            <p class="hero-hi reveal-top delay-1">Hi there, I'm 👋</p>
+            <span class="availability reveal-top"><span class="pulse-dot"></span> Open to work · available now for internships, junior roles &amp; freelance</span>
+            <p class="hero-hi reveal-top delay-1">Hi there, I'm</p>
             <h1 class="hero-name reveal-top delay-1" id="heroName" aria-label="Qursam Bibi">Qursam Bibi</h1>
             <h2 class="typing-line reveal-top delay-2"><span class="tl-prefix">&gt;</span> <span id="typed"></span><span class="caret">_</span></h2>
             <p class="hero-pitch reveal-top delay-3">I turn ideas into <mark>AI-powered products</mark> — FastAPI microservices, React &amp; Flutter apps and LLM integrations — and I ship them fast, from hackathon weekends to live deployments.</p>
@@ -107,6 +108,11 @@
                 <div class="orbit" id="orbit"></div>
                 <div class="float-card fc-1"><span>🏆</span><div><b>4 Hackathons</b><small>in 2026 alone</small></div></div>
                 <div class="float-card fc-2"><span>🎓</span><div><b>CGPA 3.89</b><small>Honhaar Scholar</small></div></div>
+                <div class="stamp" title="Open to work">
+                    <svg viewBox="0 0 120 120"><defs><path id="stampPath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+                        <text><textPath href="#stampPath">open to work ✦ ai builder ✦ full-stack ✦ </textPath></text></svg>
+                    <span class="stamp-core">✦</span>
+                </div>
                 <div class="float-card fc-3"><span class="live-dot"></span><div><b>DreamVerse AI</b><small>live on Netlify</small></div></div>
             </div>
         </div>
@@ -256,8 +262,8 @@
         <h2 class="section-title reveal-left">Let's Build Something</h2>
         <div class="contact-wrap reveal-bottom delay-1">
             <div class="contact-info">
-                <h3>Have a role, a hackathon team or a project in mind?</h3>
-                <p>I usually reply within a day.</p>
+                <h3>I'm open to work right now. Have a role, a team or a project in mind?</h3>
+                <p>I'm available immediately for internships, junior AI / full-stack roles and freelance work, and I usually reply within a day.</p>
                 <a href="mailto:qursam21@gmail.com" class="contact-line"><i class="fas fa-paper-plane"></i> qursam21@gmail.com</a>
                 <a href="mailto:70179225@student.uol.edu.pk" class="contact-line"><i class="fas fa-university"></i> 70179225@student.uol.edu.pk</a>
                 <a href="https://www.linkedin.com/in/qursam-bibi-b3309b320/" target="_blank" rel="noopener" class="contact-line"><i class="fab fa-linkedin"></i> linkedin.com/in/qursam-bibi</a>
@@ -281,7 +287,7 @@
     </section>
 
     <footer>
-        <p>&copy; <span id="year">2026</span> Qursam Bibi · Built with HTML, CSS &amp; JavaScript</p>
+        <p>&copy; <span id="year">2026</span> Qursam Bibi · Designed &amp; built by hand with HTML, CSS &amp; JavaScript</p>
         <a href="#home" class="back-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
     </footer>
 

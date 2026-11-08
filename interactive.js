@@ -15,7 +15,7 @@
         get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
         set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
     };
-    const accent = () => getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim() || '#06b6d4';
+    const accent = () => getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim() || '#ffb547';
 
     /* =====================================================
        TOASTS
@@ -200,7 +200,7 @@
         whoami: { desc: 'who is Qursam?', run() {
             line('<span class="ts">Qursam Bibi</span> — AI Developer & Full-Stack Engineer');
             line('BS Information Engineering Technology @ University of Lahore · <span class="ts">CGPA 3.89</span> · Honhaar scholar');
-            line(`Based in Lahore 🇵🇰 · open to internships, hackathons, scholarships & freelance`);
+            line(`Based in Lahore 🇵🇰 · open to work: available now for internships, junior roles, hackathons & freelance`);
         }},
         projects: { desc: 'list my projects', run() {
             projects.forEach(p => line(`  ${link('open ' + p.id, p.id.padEnd(12, ' '))} <span class="tdim">${esc(p.title)}</span>${p.status === 'In Progress' ? ' <span class="tw">[wip]</span>' : ''}`));
@@ -465,7 +465,7 @@
         document.body.appendChild(c);
         const x = c.getContext('2d');
         c.width = innerWidth; c.height = innerHeight;
-        const colors = ['#06b6d4', '#a78bfa', '#4ade80', '#facc15', '#f87171', '#60a5fa'];
+        const colors = ['#ffb547', '#ff6f61', '#c3b1ff', '#f7efe3', '#fb923c', '#f472b6'];
         const ps = Array.from({ length: 160 }, () => ({ x: innerWidth / 2, y: innerHeight / 2.5, vx: (Math.random() - 0.5) * 16, vy: Math.random() * -14 - 4, s: Math.random() * 7 + 4, c: colors[Math.floor(Math.random() * colors.length)], r: Math.random() * 6, vr: (Math.random() - 0.5) * 0.3 }));
         let t = 0;
         (function f() {
@@ -488,7 +488,7 @@
         let t = 0;
         (function f() {
             x.fillStyle = 'rgba(0,0,0,0.08)'; x.fillRect(0, 0, c.width, c.height);
-            x.fillStyle = '#22d3ee'; x.font = fs + 'px monospace';
+            x.fillStyle = '#ffb547'; x.font = fs + 'px monospace';
             drops.forEach((y, i) => {
                 x.fillText(chars[Math.floor(Math.random() * chars.length)], i * fs, y * fs);
                 if (y * fs > c.height && Math.random() > 0.975) drops[i] = 0;
@@ -518,7 +518,7 @@
     });
 
     // Friendly message for devs who open the console
-    console.log('%c👋 Hey developer!', 'font-size:18px;font-weight:bold;color:#06b6d4');
+    console.log('%c👋 Hey developer!', 'font-size:18px;font-weight:bold;color:#ffb547');
     console.log('%cLike what you see? Type "sudo hire qursam" in the site terminal — or email ' + (D.email || ''), 'color:#94a3b8');
 
     // Expose for other scripts if needed
