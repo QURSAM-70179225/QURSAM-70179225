@@ -325,14 +325,21 @@ const PORTFOLIO = {
   certifications: [
     { title: "Full-Stack & Python Specializations", org: "REST APIs, databases, async Python" },
     { title: "Aspire Leaders Program", org: "Aspire Institute · Aug 2025", image: "aspire_cert.jpg" },
-    { title: "Programming for Everybody (Python)", org: "University of Michigan", image: "python_cert.jpg" },
-    { title: "HTML, CSS & JavaScript for Web Developers", org: "Johns Hopkins University", image: "web_cert.jpg" },
-    { title: "Understanding Basic SQL Syntax", org: "Coursera Project Network", image: "sql_cert.jpg" },
-    { title: "Effective Problem-Solving", org: "UC Irvine · Apr 2025", image: "problemsolving_cert.jpg" },
-    { title: "Organizational Leadership", org: "IIM Ahmedabad · May 2024", image: "leadership_cert.jpg" },
+    { title: "Programming for Everybody (Getting Started with Python)", org: "University of Michigan · Jun 2025", image: "python_cert.jpg" },
+    { title: "HTML, CSS & JavaScript for Web Developers", org: "Johns Hopkins University · Jun 2025", image: "web_cert.jpg" },
+    { title: "Foundations of Digital Marketing & E-commerce", org: "Google · Jun 2025", image: "google_cert.jpg" },
     { title: "Developing Interpersonal Skills", org: "IBM · May 2025", image: "ibm_cert.jpg" },
-    { title: "Foundations of Digital Marketing", org: "Google · Jun 2025", image: "google_cert.jpg" },
+    { title: "Effective Problem-Solving & Decision-Making", org: "UC Irvine · Apr 2025", image: "problemsolving_cert.jpg" },
+    { title: "Leadership Skills", org: "IIM Ahmedabad · Jun 2024", image: "leadership_cert.jpg" },
     { title: "Training and Learning Online", org: "University of Leeds · Jul 2024", image: "leeds_cert.jpg" },
-    { title: "Finding Your Professional Voice", org: "Royal Holloway, University of London · Jun 2024", image: "london_cert.jpg" }
+    { title: "Finding Your Professional Voice: Confidence & Impact", org: "University of London · Jul 2024", image: "london_cert.jpg" },
+    { title: "Understanding Basic SQL Syntax", org: "Coursera Project Network · Jun 2025", image: "sql_cert.jpg" },
+    { title: "Introduction to HTML", org: "Coursera Project Network · Apr 2025", image: "html_cert.jpg" },
+    { title: "Build a Free Website with WordPress", org: "Coursera Project Network · Dec 2024", image: "wordpress_cert.jpg" },
+    { title: "Introduction to Microsoft Excel", org: "Coursera Project Network · Aug 2024", image: "excel_cert.jpg" },
+    { title: "Organize Yourself as a Remote Worker", org: "Coursera Guided Project · Jul 2024", image: "remotework_cert.jpg" },
+    { title: "Google Ads for Beginners", org: "Coursera Project Network · Jul 2024", image: "googleads_cert.jpg" },
+    { title: "Skillful & Determinant Leadership Course", org: "Khrews · Certificate of Appreciation", image: "khrews_cert.jpg" },
+    { title: "World Water Day Webinar", org: "University of Chakwal × Skillistan × PCRWR · Mar 2024", image: "waterday_cert.jpg" }
   ]
 };

@@ -185,7 +185,11 @@ fun_fact:   built a whole disaster-response platform solo at a hackathon
 <summary><b>📜 Certifications</b></summary>
 <br>
 
-Python (University of Michigan) · HTML, CSS & JS (Johns Hopkins) · SQL (Coursera) · Problem-Solving (UC Irvine) · Organizational Leadership (IIM Ahmedabad) · Interpersonal Skills (IBM) · Digital Marketing (Google) · Learning Online (University of Leeds) · Professional Voice (Royal Holloway, University of London) · Aspire Leaders Program
+**Courses:** Python (University of Michigan) · HTML, CSS & JS (Johns Hopkins) · Digital Marketing & E-commerce (Google) · Interpersonal Skills (IBM) · Problem-Solving & Decision-Making (UC Irvine) · Leadership Skills (IIM Ahmedabad) · Training and Learning Online (University of Leeds) · Finding Your Professional Voice (University of London) · Aspire Leaders Program
+
+**Guided projects:** Basic SQL Syntax · Introduction to HTML · Build a Free Website with WordPress · Introduction to Microsoft Excel · Organize Yourself as a Remote Worker · Google Ads for Beginners
+
+**Also:** Skillful & Determinant Leadership Course (Khrews) · World Water Day Webinar (University of Chakwal × Skillistan × PCRWR)
 </details>
 
 ---
