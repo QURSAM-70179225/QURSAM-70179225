@@ -20,7 +20,7 @@ const PORTFOLIO = {
     { name: "Women Tech Quest", org: "10Pearls Lahore", project: "Smart Bill Analytics" },
     { name: "COLABS Hackathon", org: "COLABS" },
     { name: "NASTP × MLH Hackathon", org: "NASTP · Major League Hacking" },
-    { name: "Computing Cup AI Hackathon", org: "Riphah International University" }
+    { name: "Computing Cup AI Hackathon", org: "Riphah International University", project: "Brief-to-Tickets" }
   ],
 
   // Scrolling highlights strip under the hero
@@ -30,7 +30,7 @@ const PORTFOLIO = {
     "☁️ Alibaba Cloud × Alkhidmat AI Hackathon",
     "🤝 COLABS Hackathon",
     "🚀 NASTP × MLH Hackathon",
-    "🏆 Riphah Computing Cup AI Hackathon",
+    "🥈 2nd of 40+ teams · Riphah Computing Cup AI Hackathon",
     "🎃 Hacktoberfest Hack Day · UOL",
     "👩‍💻 Women Tech Quest 2026",
     "🤖 Skkillo AI Challenge",
@@ -79,6 +79,80 @@ const PORTFOLIO = {
   // category: any of "hack", "ai", "web", "uol"   |   status: "Shipped", "Live", "In Progress", "Hackathon", "Open Source"
   // featured: true puts a project in the big Featured Work grid (art = emoji, tagline = one punchy line)
   projects: [
+    {
+      id: "brieftotickets",
+      title: "Brief-to-Tickets",
+      category: ["hack", "ai"],
+      event: "Riphah Computing Cup AI Hackathon · Nov 2026 · 2nd of 40+ teams",
+      status: "Hackathon",
+      summary: "LLM pipeline that turns a client brief into Jira-style tickets and client questions, and never guesses what the brief does not say.",
+      role: "Team Lead & Developer",
+      problem: "Client briefs are vague, and AI tools that turn them into tickets tend to invent requirements nobody asked for.",
+      solution: "A five-stage pipeline where every extracted fact must carry a word-for-word quote from the brief, a Python step verifies each quote, and anything the brief does not state becomes a question for the client.",
+      highlights: [
+        "Every ticket points back to the exact sentence it came from",
+        "Python verification step checks each quote against the brief",
+        "Tested against prompt injection: injected instructions cut the questions raised from 10 to 5, while the Python checks flagged all 3 injected sentences",
+        "Streamlit web app with JSON, CSV and Markdown export"
+      ],
+      stack: ["Python", "Streamlit", "Groq", "LLM Validation"],
+      links: { github: "https://github.com/QURSAM-70179225/jira-ticket-generating" }
+    },
+    {
+      id: "devtooling",
+      title: "AI Developer Tooling",
+      category: ["hack", "ai"],
+      event: "Riphah Computing Cup AI Hackathon · Nov 2026 · 2nd of 40+ teams",
+      status: "Hackathon",
+      summary: "Two Python developer tools: a GitHub repository analyser and an LLM pull request reviewer.",
+      role: "Team Lead & Developer",
+      problem: "Understanding an unfamiliar repository and checking pull requests against their tickets both take developers a lot of time.",
+      solution: "An analyse command that reports on any public GitHub repository, and a pull request reviewer that checks each pull request against its Jira ticket's acceptance criteria.",
+      highlights: [
+        "Repository report covers tech stack, structure, complexity score, dependency health and commit activity",
+        "Pull request reviewer checks changes against the ticket's acceptance criteria using an LLM",
+        "Never merges when anything is uncertain"
+      ],
+      stack: ["Python", "LLM APIs", "CLI", "GitHub"],
+      links: { github: "https://github.com/QURSAM-70179225/ai-developer-tooling" }
+    },
+    {
+      id: "associationrules",
+      title: "Association Rule Mining at Scale",
+      category: ["hack"],
+      event: "Riphah Computing Cup AI Hackathon · Nov 2026 · 2nd of 40+ teams",
+      status: "Hackathon",
+      summary: "Finds which products are bought together across 500,000 shopping baskets.",
+      role: "Team Lead",
+      problem: "With 2,000 products, the number of possible combinations is far too large to check one by one.",
+      solution: "The Eclat method with bitsets: only groups that are already frequent are grown, and each count is a fast comparison of two rows of on/off switches.",
+      highlights: [
+        "500,000 baskets and 2,000 products",
+        "Frequent itemsets at 0.3% support and rules at 60% confidence",
+        "Built with a teammate in Google Colab"
+      ],
+      stack: ["Python", "Eclat", "Bitsets", "Google Colab"],
+      links: { github: "https://github.com/QURSAM-70179225/association-rule-mining" }
+    },
+    {
+      id: "nearduplicate",
+      title: "Near-Duplicate Document Detection",
+      category: ["hack"],
+      event: "Riphah Computing Cup AI Hackathon · Nov 2026 · 2nd of 40+ teams",
+      status: "Hackathon",
+      summary: "Finds every pair of near-identical articles among 112,571 documents in under 15 minutes.",
+      role: "Team Lead",
+      problem: "Comparing every document with every other one means about 6.3 billion comparisons, which would take more than a day.",
+      solution: "MinHash fingerprints and locality-sensitive hashing cut the work to about 100,000 candidate pairs, and each candidate is then checked exactly.",
+      highlights: [
+        "112,571 documents processed within a 15-minute limit",
+        "About 6.3 billion comparisons reduced to about 100,000",
+        "Exact Jaccard check on every candidate, so the output has no false pairs",
+        "Built with a teammate in Google Colab"
+      ],
+      stack: ["Python", "MinHash", "LSH", "Google Colab"],
+      links: { github: "https://github.com/QURSAM-70179225/Similar_File_Detection" }
+    },
     {
       id: "safepath",
       title: "SafePath AI",
@@ -315,6 +389,10 @@ const PORTFOLIO = {
   ],
 
   achievements: [
+    { icon: "fa-trophy", color: "gold", date: "Nov 2026", title: "2nd Place — Riphah Computing Cup AI Hackathon", org: "Riphah International University · 40+ teams",
+      text: "Led a two-person team across four AI and data tasks: brief-to-tickets, developer tooling, association rule mining and near-duplicate detection." },
+    { icon: "fa-file-alt", color: "cyan", date: "In progress · 2026", title: "Research Paper (IEEE format)", org: "The University of Lahore",
+      text: "AI-Assisted Generation, Validation, and Accessibility Compliance of Engineering Data Visualizations. To be submitted for publication." },
     { icon: "fa-award", color: "gold", date: "Sept 2026", title: "Honhaar Scholarship Recipient", org: "Merit award · BS Information Engineering Technology",
       text: "Full merit-based scholarship for top academic performance in Information Engineering Technology." },
     { icon: "fa-laptop-code", color: "green", date: "Jul – Oct 2026", title: "Alkhidmat Fellowship & Internship", org: "Alkhidmat Foundation",
