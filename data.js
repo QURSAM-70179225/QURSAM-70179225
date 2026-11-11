@@ -298,24 +298,30 @@ const PORTFOLIO = {
   ],
 
   experience: [
-    { date: "Jul 2026 · Completed", title: "Generative AI Intern", org: "TechNova", type: "Internship", icon: "fa-brain",
+    { date: "Aug 2026 – Present", title: "Operations Team", org: "TEDx University of Lahore", type: "Part-time · On-site", icon: "fa-microphone-alt",
+      points: ["Event logistics, attendee management and venue execution for 500+ attendees"] },
+    { date: "Aug 2026 – Oct 2026", title: "Fellow", org: "Alkhidmat Foundation Pakistan", type: "Fellowship · On-site", icon: "fa-laptop-code",
+      points: ["Intensive program in prompt engineering, software product design and technology entrepreneurship"] },
+    { date: "Jul 2026 – Sep 2026", title: "Intern", org: "Alkhidmat Foundation Pakistan", type: "Internship · Hybrid", icon: "fa-database",
+      points: ["Summer internship in Lahore"] },
+    { date: "Jun 2026 – Aug 2026", title: "Generative AI Intern", org: "TechNova", type: "Internship", icon: "fa-brain",
       points: ["Built LLM-powered tools: story generator, summarizer and prompt library"] },
     { date: "Jun 2026 – Jul 2026", title: "Python Programming Intern", org: "Decodelabs", type: "Remote internship", icon: "fa-code",
       points: ["Python automation and problem-solving projects"] },
     { date: "May 2026", title: "Volunteer Field Assistant", org: "World Health Organization (WHO)", type: "Volunteer", icon: "fa-hand-holding-medical",
       points: ["Supported a public health awareness campaign"] },
-    { date: "Jul 2025 – Dec 2025", title: "IT Summer Intern", org: "BugsLink TECH", type: "On-site", icon: "fa-shield-alt",
+    { date: "2025", title: "IT Summer Intern", org: "BugsLink TECH", type: "On-site", icon: "fa-shield-alt",
       points: ["Hands-on IT support and systems work"] }
   ],
 
   achievements: [
     { icon: "fa-award", color: "gold", date: "Sept 2026", title: "Honhaar Scholarship Recipient", org: "Merit award · BS Information Engineering Technology",
       text: "Full merit-based scholarship for top academic performance in Information Engineering Technology." },
-    { icon: "fa-laptop-code", color: "green", date: "Sept 2026", title: "Alkhidmat Fellowship & Internship", org: "Alkhidmat Foundation",
+    { icon: "fa-laptop-code", color: "green", date: "Jul – Oct 2026", title: "Alkhidmat Fellowship & Internship", org: "Alkhidmat Foundation",
       text: "6-week intensive program in prompt engineering, software product design and technology entrepreneurship." },
-    { icon: "fa-microphone-alt", color: "red", date: "Sept 2026", title: "TEDx Operations Team", org: "TEDx The University of Lahore",
+    { icon: "fa-microphone-alt", color: "red", date: "Aug 2026 – Present", title: "TEDx Operations Team", org: "TEDx The University of Lahore",
       text: "Coordinated event logistics, attendee management and venue execution for 500+ attendees." },
-    { icon: "fa-globe", color: "purple", date: "2026", title: "Aspire Leaders Scholar", org: "Aspire Institute (Harvard-founded)",
+    { icon: "fa-globe", color: "purple", date: "2025", title: "Aspire Leaders Scholar", org: "Aspire Institute (Harvard-founded)",
       text: "Completed global leadership and critical-thinking modules in a competitive international cohort." },
     { icon: "fa-medal", color: "gold", date: "Competitions", title: "1st Place — Omecta Quiz", org: "6th Place — International Essay Competition",
       text: "Recognized for analytical reasoning and written communication." }

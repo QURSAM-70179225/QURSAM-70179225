@@ -166,19 +166,31 @@ fun_fact:   built a whole disaster-response platform solo at a hackathon
 
 | | Role | Organization | When |
 |:-:|---|---|---|
-| 🧠 | Generative AI Intern | TechNova | Jul 2026 (completed) |
+| 🎤 | Operations Team (part-time) | TEDx University of Lahore | Aug 2026 – Present |
+| 💚 | Fellow | Alkhidmat Foundation Pakistan | Aug – Oct 2026 |
+| 💚 | Intern | Alkhidmat Foundation Pakistan | Jul – Sep 2026 |
+| 🧠 | Generative AI Intern | TechNova | Jun – Aug 2026 |
 | 🐍 | Python Programming Intern | Decodelabs | Jun – Jul 2026 |
 | 🩺 | Volunteer Field Assistant | World Health Organization | May 2026 |
-| 🛡️ | IT Summer Intern | BugsLink TECH | Jul – Dec 2025 |
+| 🛡️ | IT Summer Intern | BugsLink TECH | 2025 |
+
+## 🎓 Education
+
+| | Qualification | Institution | When |
+|:-:|---|---|---|
+| 🎓 | BS Information Engineering Technology (CGPA 3.89) | The University of Lahore | Sep 2024 – May 2028 |
+| 🌍 | Aspire Leaders Program (Grade A) | Aspire Institute | Jan – Jul 2025 |
+| 📘 | FSc | Kallar Kahar Science College | 2023 |
+| 📗 | Matric | Fauji Foundation Model School, Dharughi Rajgan | 2021 |
 
 ## 🎖️ Awards & fellowships
 
 | | |
 |:-:|---|
 | 🏅 | **Honhaar Scholarship**: a full merit scholarship *(Sept 2026)* |
-| 💚 | **Alkhidmat AI & Software Engineering Fellow** *(Sept 2026)* |
-| 🎤 | **TEDx University of Lahore, Operations Lead**: 500+ attendees *(Sept 2026)* |
-| 🌍 | **Aspire Leaders Scholar**, Aspire Institute *(2026)* |
+| 💚 | **Alkhidmat AI & Software Engineering Fellow** *(Aug – Oct 2026)* |
+| 🎤 | **TEDx University of Lahore, Operations Team**: 500+ attendees *(Aug 2026 – Present)* |
+| 🌍 | **Aspire Leaders Scholar**, Aspire Institute *(2025)* |
 | 🥇 | **1st Place**, Omecta Quiz · **6th Place**, International Essay Competition |
 
 <details>
